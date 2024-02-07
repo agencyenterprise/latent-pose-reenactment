@@ -653,7 +653,7 @@ if __name__ == '__main__':
              "- 'SCREEN'.")
     arg_parser.add_argument('--crop-style', type=str, default='latentpose', choices=['ffhq', 'latentpose'],
         help="Which crop style to use.")
-    arg_parser.add_argument('--image-size', type=int, default=256,
+    arg_parser.add_argument('--image-size', type=int, default=512,
         help="Size of square output images.")
     arg_parser.add_argument('--save-extra-data', action='store_true',
         help="If set, will save '.npy' files with keypoints alongside.")

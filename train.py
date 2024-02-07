@@ -68,7 +68,7 @@ parser.add('--num_channels', type=int, default=64)
 parser.add('--max_num_channels', type=int, default=512)
 parser.add('--embed_channels', type=int, default=512)
 parser.add('--pose_embedding_size', type=int, default=136)
-parser.add('--image_size', type=int, default=256)
+parser.add('--image_size', type=int, default=512)
 
 # Optimizer
 parser.add('--optimizer', default='Adam', type=str, choices=['Adam', 'RAdam'])

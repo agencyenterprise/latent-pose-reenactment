@@ -16,7 +16,7 @@ experiments_dir: "experiments/"
 data_root: "/datasets/VoxCeleb2"
 bboxes_dir: "/non/existent/file"
 
-num_gpus: 2
+num_gpus: 1
 batch_size: 8
 num_workers: 4
 prefetch_size: 16
